@@ -2,12 +2,12 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01-preview/deploymentTemplate.json",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "newStorageAccountName": {
-      "type": "string",
-      "metadata": {
-        "description": "This is the name of the storage account for storing Virtual Machine disk"
-      }
-    },
+    //"newStorageAccountName": {
+    //  "type": "string",
+    //  "metadata": {
+    //    "description": "This is the name of the storage account for storing Virtual Machine disk"
+    //  }
+    //},
     "vmName": {
       "type": "string",
       "metadata": {
