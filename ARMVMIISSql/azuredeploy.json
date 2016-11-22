@@ -363,7 +363,7 @@
             "[parameters('DatabaseServerName')]"
           ],
           "tags": {
-            "displayName": "cawadb1"
+            "displayName": "wgdbname"
           },
           "properties": {
             "collation": "[parameters('databaseCollation')]",
