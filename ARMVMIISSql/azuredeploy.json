@@ -4,7 +4,6 @@
   "parameters": {
     "newStorageAccountName": {
       "type": "string",
-      "defaultValue": "[toLower( concat( 'wgstore', uniqueString(resourceGroup().id) ) )]",
       "metadata": {
         "description": "This is the name of the storage account for storing Virtual Machine disk"
       }
