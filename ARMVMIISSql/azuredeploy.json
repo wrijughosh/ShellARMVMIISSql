@@ -143,12 +143,14 @@
     "subnet2Prefix": "10.0.1.0/24",
     "subnet1Ref": "[concat(variables('vnetID'),'/subnets/',variables('subnet1Name'))]",
     "publicIPAddressName": "[concat(parameters('vmName'), '-PublicIP-VM')]",
-    "storageAccountType": "Standard_LRS"
+    "storageAccountType": "Standard_LRS",
+    "newStorageAccountName": "[toLower( concat( 'wgstore', uniqueString(resourceGroup().id) ) )]",
+
   },
   "resources": [
     {
       "type": "Microsoft.Storage/storageAccounts",
-      "name": "[parameters('newStorageAccountName')]",
+      "name": "[variables('newStorageAccountName')]",
       "apiVersion": "2015-05-01-preview",
       "location": "[resourceGroup().location]",
       "tags": {
