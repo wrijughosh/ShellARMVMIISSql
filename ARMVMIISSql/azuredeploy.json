@@ -116,7 +116,7 @@
     },
     "databaseEdition": {
       "type": "string",
-      "defaultValue": "Web",
+      "defaultValue": "Basic",
       "allowedValues": [
         "Basic",
         "Business",
