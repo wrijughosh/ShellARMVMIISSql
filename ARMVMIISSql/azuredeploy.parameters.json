@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01-preview/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "wgshellstore12"
+    },
+    "vmName": {
+      "value": "wgshellvm12"
+    },
+    "adminUserName": {
+      "value": "wriju"
+    },
+    "dnsName": {
+      "value": "wgdns12"
+    },
+    "vmSize": {
+      "value": "Standard_A3"
+    },
+    "adminPassword": {
+      "value": "LS1setup!!!!"
+    },
+    "webdeploypkg": {
+      "value": "https://stagecbc75b62c7f24385845.blob.core.windows.net/wgdsc/WebApplication3.zip"
+    },
+    "configurationFunction": {
+      "value": "ConfigureWebServer.ps1\\Main"
+    },
+    "DatabaseServerName": {
+      "value": "wgsqlserver12"
+    },
+    "DatabaseServerLocation": {
+      "value": "eastasia"
+    },
+    "databaseServerAdminLogin": {
+      "value": "wriju"
+    },
+    "databaseServerAdminLoginPassword": {
+      "value": "LS1setup!!!!"
+    },
+    "databaseName": {
+      "value": "wgsqldb12"
+    },
+    "modulesUrl": {
+      "value": "https://stagecbc75b62c7f24385845.blob.core.windows.net/wgdsc/ConfigureWebServer.ps1.zip"
+    }
+  }
+}
