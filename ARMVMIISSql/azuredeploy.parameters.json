@@ -2,17 +2,17 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01-preview/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    //"newStorageAccountName": {
-    //  "value": "wgshellstore12"
-    //},
+    "newStorageAccountName": {
+      "value": "wgshellstore1234"
+    },
     "vmName": {
-      "value": "wgshellvm12"
+      "value": "wgshellvm1234"
     },
     "adminUserName": {
       "value": "wriju"
     },
     "dnsName": {
-      "value": "wgdns12"
+      "value": "wgdns1234"
     },
     "vmSize": {
       "value": "Standard_A3"
@@ -27,7 +27,7 @@
       "value": "ConfigureWebServer.ps1\\Main"
     },
     "DatabaseServerName": {
-      "value": "wgsqlserver12"
+      "value": "wgsqlserver1234"
     },
     "DatabaseServerLocation": {
       "value": "eastasia"
@@ -39,7 +39,7 @@
       "value": "LS1setup!!!!"
     },
     "databaseName": {
-      "value": "wgsqldb12"
+      "value": "wgsqldb1234"
     },
     "modulesUrl": {
       "value": "https://stagecbc75b62c7f24385845.blob.core.windows.net/wgdsc/ConfigureWebServer.ps1.zip"
